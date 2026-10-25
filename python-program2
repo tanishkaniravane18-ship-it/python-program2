@@ -1,0 +1,122 @@
+x = 15
+y = 4
+print("addition= ",x+y)
+print("substraction=",x-y)
+print("multiplication=",x*y)
+print("division=",x/y)
+print("modulus=",x%y)
+print("floor division=",x//y)
+print("exponential=",x**y)
+#ques2
+num = 50
+print("initial value!",num)
+num+=10
+print("after += 10:", num)
+num-=10
+print("after -= 10:",num)
+num*=5
+print("after *= 5:",num)
+num/=10
+print("after /= 10:",num)
+num%=6
+print("after %= 6:",num)
+num//=4
+print("after //= 6:",num)
+#ques3
+a = 25
+b = 30
+print("a=",a ,end=" ")
+print("b=",b)
+print("a<b:",a<b)
+print("a>b:",a>b)
+print("a<=b:",a<=b)
+print("a>=b:",a>=b)
+print("a==b:",a==b)
+print("a!=b:",a!=b)
+#ques4
+x=10
+y=20
+z=30
+print("x=",x ,end=" ")
+print("y=",y ,end=" ")
+print("z=",z)
+print(x<y and y<z)
+print(x>y or y<z)
+print(not(x==y))
+#ques5
+a=100
+b=100
+print("a=",a ,end=" ")
+print("b=",b)
+print("id of a:",id(a))
+print("id of b:",id(b))
+'''a and b stores 100 in the same object and in same memory location so the id is also same for both and hence when the 'is' operator is used it gives the output true as the id is same for a and b'''
+print("a is b:",a is b)
+print("a is not b:",a is not b)
+list1=[10,20,30]
+list2=[10,20,30]
+print("list1:",list1,end=" ")
+print("list2:",list2)
+print("id of list1:",id(list1))
+print("id of list2:",id(list2))
+'''list1 and list2 is stored in different memory location and in different objects so their id is different from each other even when the elements in the list are same and the ans to 'is' operation will be false beacause the operator checks whether the id of both the list is same or not'''
+print("list1 is list2:",list1 is list2)
+print("list1 is not list2:",list1 is not list2)
+print("both list is equal:",list1 == list2)
+#ques6
+colours=["red","blue","green","yellow"]
+print("pink in colours:",'pink' in colours)
+print("blue not in colours:", 'blue' not in colours)
+print("yellow in colours:",'yellow' in colours)
+#ques7
+x=12
+y=10
+print("x=",x,end=" ")
+print("y=",y)
+print("x & y:",x &y)
+print("x | y:",x|y)
+print("x ^ y:",x^y)
+print("~x:",~x)
+print("x<<2:",x<<2)
+print("y>>2:",y>>2)
+#ques8
+intVal = 10
+floatVal = 5.5
+stringVal = "python"
+print("int value=",intVal,type(intVal))
+print("float value=",floatVal,type(floatVal))
+print("string value=",stringVal,type(stringVal))
+res = intVal + floatVal
+print("intVal + floatVal=",res,type(res))
+res1 = intVal*floatVal
+print("intVal*floatVal=",res1,type(res1))
+res2=intVal / floatVal
+print("intVal/floatVal=",res2,type(res2))
+res3 = stringVal*3
+print("stringVal=",res3,type(stringVal))
+#ques9
+first="hello"
+second="world"
+print("first=",first,end=" ")
+print("second=",second)
+concatenate= first+" "+second
+print("after concatenating=",concatenate)
+repetition=first*2
+print("repetition=",repetition)
+combine= (first +' ')*2+second
+print("after combining=",combine)
+#ques10
+a=10
+b=5
+c=3
+print("a=",a)
+print("b=",b)
+print("c=",c)
+res=a+b*c
+print("a+b*c=",res)
+res1=(a+b)*c
+print("(a+b)*c=",res1)
+res2=a**b//c
+print("a**b//c=",res2)
+res3=a<b and b>c or a==10
+print("a<b and b>c or a==10 =",res3)
